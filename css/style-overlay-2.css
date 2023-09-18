@@ -1,0 +1,74 @@
+#scrolly {
+  position: relative;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+article {
+  position: relative;
+  padding: 0;
+  max-width: 23rem;
+  margin: 0 auto;
+  z-index:10
+}  
+
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  left:0;
+  width: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  background-color: #18375F;
+  z-index: 10;
+  overflow: hidden;
+  /* Center everything inside */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* Responsive graphic */
+figure img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+}
+
+.step{
+  height: 950px;
+  margin-bottom: 150px;
+  opacity: 0.3;
+  margin: 0 auto;
+  z-index: 20;
+}
+
+.step p{
+  background-color: #F4F3F8;
+  padding: 25px;
+  margin: 0;
+}
+
+.step.is-active{
+  opacity: 1;
+}
+
+#intro {
+  max-width: 60rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+#outro {
+  height: 30em;
+}
+
+h5 {
+ text-align: center;
+ margin: 2rem auto;
+}

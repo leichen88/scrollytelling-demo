@@ -1,0 +1,82 @@
+#scrolly {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #f3f3f3;
+	padding: 1rem;
+}
+#scrolly>* {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+article {
+	position: relative;
+	padding: 0 1rem;
+	max-width: 20rem;
+}
+figure {
+	position: -webkit-sticky;
+	position: sticky;
+	width: 100%;
+	margin: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	background-color: #18375F;
+	z-index: 0;
+	/* Center everything inside */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+figure img {
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: contain;
+}
+
+.step {
+	margin: 0 auto 2rem auto;
+}
+
+.step:last-child {
+	margin-bottom: 0;
+}
+
+.step h2{
+    text-align: right;
+    font-size: 2em;
+	margin-bottom: 0;
+    padding-bottom: 25px;
+    line-height: .9em;
+}
+
+.step h2, .step p{
+    padding-right: 25px;
+    border-right: 2px solid #CCCCCC;
+    color: #CCCCCC;
+}
+
+.step.is-active h2, .step.is-active p{
+    border-right-color: #01080D;
+    color: #01080D;
+}
+
+.step p{
+	text-align: justify;
+}
+
+#intro {
+    max-width: 30rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+  
+#outro {
+  height: 30em;
+}

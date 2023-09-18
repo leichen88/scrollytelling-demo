@@ -1,2 +1,1 @@
-# scrollytelling-demo
-Scrollytelling demo using scrollama.js and d3.js
+# Scrolleytelling demo using Scrollama.js and D3.js
