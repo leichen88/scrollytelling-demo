@@ -17,7 +17,7 @@ var jsonData;
 var xScale, yScale;
 var xAxis, yAxis;
 
-d3.json("/data/demoData.json").then(function(data){
+d3.json("data/demoData.json").then(function(data){
   jsonData = data;
 
   // X scale and Axis
